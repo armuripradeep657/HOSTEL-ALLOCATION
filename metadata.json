@@ -1,0 +1,10 @@
+{
+  "name": "Hostel Allocation System",
+  "description": "An interactive 3D hostel space allocation and management system, featuring visual floor layouts, gate pass workflows, complaints reporting, real-time sync, and admin dashboard controls.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
