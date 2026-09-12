@@ -8,7 +8,7 @@ import { isFirebaseConfigured, fetchFromDB, saveToDB } from "./firebase-service.
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Middleware for body-parsing
   app.use(express.json());
